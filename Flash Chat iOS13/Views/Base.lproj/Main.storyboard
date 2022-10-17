@@ -48,7 +48,7 @@
                                     <segue destination="5v2-hE-4Ub" kind="show" id="yaj-mL-cGP"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ" customClass="CLTypingLabel" customModule="CLTypingLabel">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="⚡️FlashChat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y7D-jv-BlJ">
                                 <rect key="frame" x="52" y="418" width="310" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="ph1-wX-D3a"/>
@@ -141,7 +141,7 @@
                                         </state>
                                         <connections>
                                             <action selector="registerPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9dE-Sc-egq"/>
-                                            <segue destination="lwd-AH-u8E" kind="show" id="P3A-nm-wuf"/>
+                                            <segue destination="lwd-AH-u8E" kind="show" identifier="RegisterToChat" id="P3A-nm-wuf"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="textfield" translatesAutoresizingMaskIntoConstraints="NO" id="jY9-l3-E1g">
@@ -245,7 +245,7 @@
                                         </state>
                                         <connections>
                                             <action selector="loginPressed:" destination="5v2-hE-4Ub" eventType="touchUpInside" id="Wlk-ga-czK"/>
-                                            <segue destination="lwd-AH-u8E" kind="show" id="bEW-oQ-2fr"/>
+                                            <segue destination="lwd-AH-u8E" kind="show" identifier="LoginToChat" id="bEW-oQ-2fr"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -377,7 +377,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="P3A-nm-wuf"/>
+        <segue reference="bEW-oQ-2fr"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="paperplane.fill" catalog="system" width="128" height="119"/>
