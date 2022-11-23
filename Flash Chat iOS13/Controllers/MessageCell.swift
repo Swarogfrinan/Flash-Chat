@@ -9,19 +9,17 @@ class MessageCell: UITableViewCell {
     @IBOutlet weak var messageLabel: UILabel!
     @IBOutlet weak var rightImageView: UIImageView!
     @IBOutlet weak var stackView: UIStackView!
+    @IBOutlet weak var leftImageView: UIImageView!
     
     // MARK: - lifecycle
-    
     override func awakeFromNib() {
         super.awakeFromNib()
-        messageLabel.text = ""
         messageBuble.layer.cornerRadius = messageBuble.frame.size.height / 5
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
     }
     
 }

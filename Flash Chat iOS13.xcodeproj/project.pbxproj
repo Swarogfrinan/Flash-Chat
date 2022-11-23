@@ -97,13 +97,11 @@
 		0B628192235DF02000E35CAF /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				43B4D91628FC248A0014027F /* MessageCell.swift */,
 				0B62818A235DF00000E35CAF /* WelcomeViewController.swift */,
 				0B62818C235DF00B00E35CAF /* RegisterViewController.swift */,
 				0B62818E235DF01000E35CAF /* LoginViewController.swift */,
-				43B4D91428FC0C7B0014027F /* Message.swift */,
 				0B628190235DF01B00E35CAF /* ChatViewController.swift */,
-				43B4D91628FC248A0014027F /* MessageCell.swift */,
-				43B4D91228FBF0A20014027F /* Constants.swift */,
 				434DAAF728DB512F00694E6C /* GoogleService-Info.plist */,
 			);
 			path = Controllers;
@@ -112,8 +110,8 @@
 		0B628193235DF03400E35CAF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				43443FA1292E508E0034228A /* Cells */,
 				0B62817C235DEE8100E35CAF /* Main.storyboard */,
-				43B4D91728FC248A0014027F /* MessageCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -121,6 +119,8 @@
 		0B628194235DF03A00E35CAF /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				43B4D91428FC0C7B0014027F /* Message.swift */,
+				43B4D91228FBF0A20014027F /* Constants.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -140,6 +140,14 @@
 				4D8E0CD78A74DE929C000F5D /* Pods-Flash Chat iOS13.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		43443FA1292E508E0034228A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				43B4D91728FC248A0014027F /* MessageCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
